@@ -7,9 +7,9 @@ This is my Repository for Linux Window Managers Setup Guides, tips n tricks as w
 
 ## Background
 
-- This is part of my Linux Installation/Setup "suite" of Guides
+- This is part of my Linux Installation/Setup "suite" of Guides and related to
 	- [my Linux Installation Guides](https://github.com/Thanatisia/distro-install-guides)
-	- [Linux Setup - PostInstallations](https://github.com/Thanatisia/linux-postinstallations)
+	
 
 
 

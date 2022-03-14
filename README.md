@@ -7,7 +7,7 @@ This is my Repository for Linux Setup PostInstallation Guides, tips n tricks and
 - Remarks
 
 ## Background
-- This is part of 
+- This is related to
 	- [my Linux Installation Guides](https://github.com/Thanatisia/distro-install-guides)
 
 ## Remarks
