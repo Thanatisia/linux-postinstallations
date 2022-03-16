@@ -53,8 +53,8 @@ Setup Window Manager:
 	- Make Directories [~/.config/bspwm, ~/.config/sxhkd]
 		mkdir -p ~/.config/bspwm ~/.config/sxhkd
 	- Copy bspwmrc and sxhkdrc examples to ~/.config/bspwm and ~/.config/sxhkd
-		cp bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
-		cp sxhkd/examples/background_shell/sxhkdrc ~/.config/sxhkd/sxhkdrc
+		cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
+		cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 	- Change permissions of bspwmrc and sxhkdrc to Executable for use
 		chmod +x ~/.config/bspwm/bspwmrc
 		chmod +x ~/.config/sxhkd/sxhkdrc

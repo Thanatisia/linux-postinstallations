@@ -80,6 +80,26 @@ References:
 #=======================
 # 1. Post-Installations
 #=======================
+- Enable multilib repository
+	```
+	If you want to run 32-bit application on your 64-bit systems, uncomment/enable the multilib repository to achieve it.
+
+	File: /etc/pacman.conf
+	```
+	- Manual:
+		$EDITOR /etc/pacman.conf
+
+		> Uncomment [multilib]
+		> Uncomment include = /etc/pacman.d/mirrorlist
+
+	- Automatic:
+		```
+		Regex Pattern:
+			"/\[multilib\]/,/Include/"
+			's/^#//'
+		```
+		sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
+
 - Setup sudo
 	```
 	For a user to use sudo, it needs to have permission or is in a group with permission
@@ -176,6 +196,19 @@ References:
 	Please refer to the Essential Packages List
 	```
 
+- Install Display Server:
+	```
+	The Display Server [xorg] and 
+	- related packages:
+		xorg-xinit : For Startx
+	- For X11 usage and Graphical Display
+	```
+	- X
+		# If your distro is
+		Arch-based :
+			sudo pacman -S xorg
+			sudo pacman -S xorg-xinit
+
 
 - Install Desktop Environment / Window Manager
 	- Desktop Environments
@@ -237,8 +270,8 @@ References:
 				- Make Directories [~/.config/bspwm, ~/.config/sxhkd]
 					mkdir -p ~/.config/bspwm ~/.config/sxhkd
 				- Copy bspwmrc and sxhkdrc examples to ~/.config/bspwm and ~/.config/sxhkd
-					cp bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
-					cp sxhkd/examples/background_shell/sxhkdrc ~/.config/sxhkd/sxhkdrc
+					cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
+					cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 				- Change permissions of bspwmrc and sxhkdrc to Executable for use
 					chmod +x ~/.config/bspwm/bspwmrc
 					chmod +x ~/.config/sxhkd/sxhkdrc
