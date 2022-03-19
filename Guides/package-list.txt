@@ -1,0 +1,295 @@
+#===============#
+# Packages List #
+#===============#
+
+A full package list that contains all packages seperated into categories
+
+Table of Contents:
+	- Notes
+	- Components
+	- Packages
+		- Masterlist
+		- Recommended
+		- Essentials
+		- Fonts
+		- Text Editor
+		- File Manager
+		- Screenlocker
+		- Status Bar
+		- Monitoring Tool
+		- Compositor
+		- Context Menu
+		- Terminal Emulator
+		- Shell
+		- Display Server
+		- Display Manager
+		- Notification Daemon
+		- Screen Locker
+		- Application Launcher
+		- Wallpaper Setter
+		- Web Browser
+		- Others
+			- System Information
+
+NOTES:
+
+Information:
+	- Desktop Environment Packages
+		```
+		Package categories required to
+		- turn Window Managers into Desktop Environment
+		```
+		Compositor
+		Context Menu
+    		Desktop compositor
+		Display Server
+    		Notification daemon
+    		Display manager
+    		Screen locker
+    		Application launcher
+    		Audio control
+    		Backlight control
+    		Media control
+    		Polkit authentication agent
+    		Power management
+    		Screen capture
+    		Screen temperature
+    		Wallpaper setter
+    		Logout dialogue
+    		Default applications
+		File Manager
+		Status Bar
+		Text Editor
+		Window Manager
+		Web Browser
+
+Components:
+	- Application Launcher
+	- Audio Control
+	- Compositor
+	- Context Menu
+	- Display/Login Manager
+	- Display Server (xorg/wayland)
+	- File Manager
+	- Fonts
+	- Notification Daemon
+	- Screenlocker
+	- Shell
+	- Status Bar
+	- System Monitor
+	- Terminal Emulator
+	- Text Editor
+	- Version Control
+	- Wallpaper Setter
+	- Web Browser
+	- Others
+		- System Information
+
+#==========#
+# Packages #
+#==========#
+
+Masterlist:
+	```
+	Place all packages here 
+	- arranged/sort by 
+		- Components
+		- Package Name
+		- Alphabetical order
+		- Descending Order (A-Z)
+	- seperate all column values with delimiter ':'
+	- seperate all subvalues with delimiter ';'
+
+	Syntax:
+		[Components : Package Name : Package Author : Description]
+	```
+	Application Launcher : dmenu : Terminal
+	Application Launcher : rofi : Terminal
+	Audio Control : alsa-utils : Graphical
+	Audio Control : pulseaudio : Terminal
+	Compositor : picom : Terminal
+	Context Menu : xmenu
+	Context Menu : xclickroot
+	Display Server : xorg
+	Display Server : xorg-xinit
+	File Manager : pcmanfm : Graphical
+	File Manager : thunar  : Graphical
+	Fonts : Hack Nerd Font 
+	Fonts : ttf-font-awesome : For Font Awesome Icon/Font packs
+	Notification Daemon : dunst : Lightweight Replacement
+	Notification Daemon : notify-send
+	Others : ascii-image-converter : Fun
+	Others : cronie : Cronjob
+	Others : entr : Commmand Utility
+	Others : figlet : Fun
+	Others : imagemagick : Image Utility
+	Others : lutris : Gaming Utilities
+	Others : mpv : Media Player
+	Others : neofetch : System Information
+	Others : neomutt : Terminal; Email Utility
+	Others : pandoc  : Document Converter
+	Others : pywal : Colorscheme Generator
+	Others : scrot : Screenshot Utility
+	Others : stream : Gaming Utilities
+	Others : ufw : Firewall Utility
+	Others : wine : Gaming Utilities
+	Others : zathura : PDF Reader
+	Resources : gnome-backgrounds : Wallpaper Packs
+	Resources : mate-backgrounds : Wallpaper Packs
+	Resources : deepin-backgrounds : Wallpaper Packs
+	Resources : elementary-wallpapers : Wallpaper Packs
+	Resources : plasma-workspace-wallpapers : Wallpaper Packs
+	Resources : archlinux-wallpaper : Wallpaper Packs
+	Screenlocker : i3-lock
+	Screenlocker : xautolocker
+	Shell : zsh
+	Status Bar : lemonbar
+	Status Bar : polybar
+	System Monitor: conky
+	Terminal Emulator : alacritty
+	Terminal Emulator : terminator
+	Terminal Emulator : rxvt-unicode (urxvt)
+	Text Editor : vim : Terminal
+	Version Control : git
+	Wallpaper Setter : nautilus
+	Web Browser : Chrome : Graphical
+	Web Browser : Firefox : Graphical
+	Web Browser : links : Terminal
+	Web Browser : lynx : Terminal
+	Web Browser : nyxt : Terminal
+	Web Browser : surf : Terminal
+
+Recommended:
+	```
+	My default recommended list of packages
+	```
+	git
+	neofetch
+	ttf-font-awesome
+
+Essentials:
+	xorg
+	xorg-xinit
+	alsa-utils
+	firefox
+	git
+	dunst
+	notify-send
+	ttf-font-awesome
+	
+Audio Control:
+	Terminal:
+		alsa-utils
+	Graphical:
+		pulseaudio
+
+Compositor:
+	picom
+
+Context Menu:
+	xmenu
+	xclickroot
+
+Fonts:
+	ttf-font-awesome
+	Hack Nerd Font
+	
+Text Editor:
+	vim
+	
+File Manager:
+	pcmanfm
+	thunar
+
+Resources:
+	Wallpaper Packs:
+		gnome-background
+		mate-backgrounds
+		deepin-backgrounds
+		elementary-wallpapers
+		plasma-workspace-wallpapers
+		archlinux-wallpaper
+
+Screenlocker:
+	i3-lock
+	xautolocker
+
+Status Bar:
+	lemonbar
+	polybar
+
+System Monitor:
+	conky
+
+Terminal Emulator:
+	alacritty
+	terminator
+	rxvt-unicode (urxvt)
+
+Shell:
+	zsh
+
+Display Server:
+	xorg
+	xorg-xinit
+
+Display/Login Manager: 
+
+Notification Daemon:
+	dunst		# Lightweight Replacement 
+	notify-send
+
+Screen Locker: 
+
+Application Launcher:
+	rofi
+	dmenu
+
+Backlight Control:
+
+Media Control: 
+
+Polkit Authentication Agent:
+
+Power Management:
+
+Screen Capture:
+
+Screen Temperature:
+
+Version Control:
+	git
+
+Wallpaper Setter:
+	nautilus
+	
+Web Browser:
+	Graphical:
+		chrome
+		firefox
+	Terminal:
+		links
+		lynx
+		nyxt
+		surf
+
+Others:
+	cronie	 # Cronjob
+	entr	 # Command Utility
+	imagemagick # Image Utility
+	mpv	 # Media Player
+	neofetch # System Information
+	pywal 	 # Colorscheme Generator
+	pandoc 	 # Document Reader
+	scrot	 # Screenshot tool
+	ufw	 # Firewall Utility
+	zathura	 # PDF Reader
+
+	Fun:
+		ascii-image-converter
+		figlet
+
+	Gaming Utilities:
+		lutris
+		steam (proton)
+		wine
